@@ -1,6 +1,6 @@
 {
   "name": "vue-real-lazy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Lazy loading is easy peasy in Vue.js.",
   "main": "dist/vue-real-lazy.min.js",
   "dependencies": {},
@@ -12,10 +12,16 @@
     "rollup-plugin-vue": "^5.1.9",
     "vue-template-compiler": "^2.6.12"
   },
+
   "scripts": {
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Winexcel",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/Winexcel/vue-real-lazy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Winexcel/vue-real-lazy.git"
+  }
 }
